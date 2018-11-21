@@ -1,0 +1,24 @@
+﻿<Window x:Class="project1.Pizza"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project1"
+        mc:Ignorable="d"
+        Title="Pizza" Height="350" Width="530">
+    <Grid Background="#FFFFEFC3">
+        <Label x:Name="welcomeLbl" Content="Label" HorizontalAlignment="Left" Margin="393,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="totalLbl" Content="total" HorizontalAlignment="Left" Margin="337,283,0,0" VerticalAlignment="Top" Width="94"/>
+        <RadioButton x:Name="rb1" Content="small" HorizontalAlignment="Left" Margin="72,76,0,0" VerticalAlignment="Top" Checked="rb1_Checked"/>
+        <RadioButton x:Name="rb2" Content="medium" HorizontalAlignment="Left" Margin="213,76,0,0" VerticalAlignment="Top" Checked="rb2_Checked"/>
+        <RadioButton x:Name="rb3" Content="large" HorizontalAlignment="Left" Margin="374,76,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.384,1.248" Checked="rb3_Checked"/>
+        <CheckBox x:Name="chk1" Content="topping 1 " HorizontalAlignment="Left" Margin="72,126,0,0" VerticalAlignment="Top" Checked="chk1_Checked" Unchecked="chk1_Checked" />
+        <CheckBox x:Name="chk2" Content="CheckBox 2" HorizontalAlignment="Left" Margin="72,158,0,0" VerticalAlignment="Top" Checked="chk2_Checked" Unchecked="chk2_Checked"/>
+        <CheckBox x:Name="chk3" Content="CheckBox 3" HorizontalAlignment="Left" Margin="72,192,0,0" VerticalAlignment="Top" Checked="chk3_Checked" Unchecked="chk3_Checked"/>
+        <CheckBox x:Name="chk4" Content="CheckBox 4" HorizontalAlignment="Left" Margin="228,192,0,0" VerticalAlignment="Top" Checked="chk4_Checked" Unchecked="chk4_Checked" />
+        <CheckBox x:Name="chk5" Content="CheckBox 5" HorizontalAlignment="Left" Margin="228,158,0,0" VerticalAlignment="Top" Checked="chk5_Checked" Unchecked="chk5_Checked" />
+        <CheckBox x:Name="chk6" Content="CheckBox 6" HorizontalAlignment="Left" Margin="228,129,0,0" VerticalAlignment="Top" Checked="chk6_Checked" Unchecked="chk6_Checked"/>
+
+
+    </Grid>
+</Window>
